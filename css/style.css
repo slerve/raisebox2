@@ -58,7 +58,7 @@ p{
 }
 /* Hero Section */
 .hero-section {
-    background-image: url('/raisebox/images/charity1.jpg');  
+    background-image: url('/raisebox2/images/charity1.jpg');  
     background-position: center; 
     background-repeat: no-repeat;
     display: flex;
@@ -214,7 +214,7 @@ footer {
 
 /*Background for project pages*/
 .gaza{
-    background-image: url('/raisebox/images/gaza2.jpg'); /* Add the path to your background image */
+    background-image: url('/raisebox2/images/gaza2.jpg'); /* Add the path to your background image */
     background-size: cover; /* Ensure the image covers the entire section */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -264,7 +264,7 @@ footer {
 }
 
 .climate{
-    background-image: url('/raisebox/images/climate.jpg'); /* Add the path to your background image */
+    background-image: url('/raisebox2/images/climate.jpg'); /* Add the path to your background image */
     background-size: cover; /* Ensure the image covers the entire section */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -314,7 +314,7 @@ footer {
 }
 
 .education{
-    background-image: url('/raisebox/images/education2.jpeg'); /* Add the path to your background image */
+    background-image: url('/raisebox2/images/education2.jpeg'); /* Add the path to your background image */
     background-size: cover; /* Ensure the image covers the entire section */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -366,7 +366,7 @@ footer {
 }
 
 .foodbank{
-    background-image: url('/raisebox/images/food2.jpg'); /* Add the path to your background image */
+    background-image: url('/raisebox2/images/food2.jpg'); /* Add the path to your background image */
     background-size: cover; /* Ensure the image covers the entire section */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -416,7 +416,7 @@ footer {
 }
 
 .haiti{
-    background-image: url('/raisebox/images/haiti.jpeg'); /* Add the path to your background image */
+    background-image: url('/raisebox2/images/haiti.jpeg'); /* Add the path to your background image */
     background-size: cover; /* Ensure the image covers the entire section */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -466,7 +466,7 @@ footer {
 }
 
 .homelessness{
-    background-image: url('/raisebox/images/homeless2.jpg'); /* Add the path to your background image */
+    background-image: url('/raisebox2/images/homeless2.jpg'); /* Add the path to your background image */
     background-size: cover; /* Ensure the image covers the entire section */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -516,7 +516,7 @@ footer {
 }
 
 .hospital{
-    background-image: url('/raisebox/images/hospital2.jpg'); /* Add the path to your background image */
+    background-image: url('/raisebox2/images/hospital2.jpg'); /* Add the path to your background image */
     background-size: cover; /* Ensure the image covers the entire section */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -566,7 +566,7 @@ footer {
 }
 
 .kakuma{
-    background-image: url('/raisebox/images/kakuma2.jpg'); /* Add the path to your background image */
+    background-image: url('/raisebox2/images/kakuma2.jpg'); /* Add the path to your background image */
     background-size: cover; /* Ensure the image covers the entire section */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -616,7 +616,7 @@ footer {
 }
 
 .orphanage{
-    background-image: url('/raisebox/images/orphanage3.jpg'); /* Add the path to your background image */
+    background-image: url('/raisebox2/images/orphanage3.jpg'); /* Add the path to your background image */
     background-size: cover; /* Ensure the image covers the entire section */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -666,7 +666,7 @@ footer {
 }
 
 .sewage{
-    background-image: url('/raisebox/images/sewage2.jpg'); /* Add the path to your background image */
+    background-image: url('/raisebox2/images/sewage2.jpg'); /* Add the path to your background image */
     background-size: cover; /* Ensure the image covers the entire section */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -716,7 +716,7 @@ footer {
 }
 
 .treeplanting{
-    background-image: url('/raisebox/images/treeplanting3.jpg'); /* Add the path to your background image */
+    background-image: url('/raisebox2/images/treeplanting3.jpg'); /* Add the path to your background image */
     background-size: cover; /* Ensure the image covers the entire section */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -766,7 +766,7 @@ footer {
 }
 
 .wells{
-    background-image: url('/raisebox/images/wells5.jpg'); /* Add the path to your background image */
+    background-image: url('/raisebox2/images/wells5.jpg'); /* Add the path to your background image */
     background-size: cover; /* Ensure the image covers the entire section */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
