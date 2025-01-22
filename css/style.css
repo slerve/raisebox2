@@ -1,0 +1,816 @@
+h1{
+   font-size: 46px;
+   line-height: 54px;
+   color: red;
+}
+
+body{
+    background-color: white;
+}
+
+p{
+  color: grey;
+  text-align: center;
+}
+
+/*Header start */
+#header{
+      
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+}
+
+#navbar{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+#navbar li{
+      list-style: none;
+      padding: 0 20px;
+}
+
+#navbar li a{
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 600;
+      color: grey;
+      transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+      color: red;
+}
+
+.power{
+   display: flex;
+   justify-content: center;
+}
+.circle-image img{
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   object-fit: cover;
+   border: 5px solod #333;
+}
+/* Hero Section */
+.hero-section {
+    background-image: url('/raisebox/images/charity1.jpg');  
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-section h1 {
+    color: yellow;
+    font-size: 4em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow for better text readability */
+}
+
+.hero-section p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section .btn {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.hero-section .btn:hover {
+    background-color: grey;
+}
+
+ .search-container {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    input[type="text"] {
+      padding: 10px;
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .item {
+      display: block;
+      padding: 10px;
+      border: 1px solid #ddd;
+      margin-bottom: 5px;
+      border-radius: 4px;
+      text-decoration: none;
+      color: #333;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .item:hover {
+      background-color: #f0f0f0;
+      color: #007bff;
+    }
+    .hidden {
+      display: none;
+    }
+
+.won{
+  text-align: center;
+  color: grey;
+}
+/*main section*/
+main {
+    padding: 20px 0;
+    flex: 1;
+}
+
+.about-us {
+    background-color: white;
+    padding: 40px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+.about-us h2 {
+    color: red;
+    margin-top: 0;
+}
+
+.about-us h3 {
+    color: red;
+    margin-top: 20px;
+}
+
+.about-us p {
+    margin: 10px 0;
+}
+
+.about-us ul {
+    list-style: disc inside;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+.center-container {
+            display: flex;
+            justify-content: center; 
+        }
+
+.donation-box {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 400px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .donation-box img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .donation-box h2 {
+            color: #333333;
+        }
+        .donation-box p {
+            color: #666666;
+        }
+        .donation-box a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #ff5733;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .donation-box a:hover {
+            background-color: #ff7849;
+        }
+
+footer {
+   
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Project Section */
+
+/*Background for project pages*/
+.gaza{
+    background-image: url('/raisebox/images/gaza2.jpg'); /* Add the path to your background image */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Set the section height to fill the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px; 
+}
+
+.gaza h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow for better text readability */
+    color: white;
+    filter: brightness(100%);
+}
+
+.gaza p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    font-style: rockwell extra bold;
+    filter: brightness(100%);
+}
+
+.gaza .btn {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    filter: brightness(100%);
+}
+
+.gaza .btn:hover {
+    background-color: grey;
+}
+
+.climate{
+    background-image: url('/raisebox/images/climate.jpg'); /* Add the path to your background image */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Set the section height to fill the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px; 
+}
+
+.climate h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow for better text readability */
+    color: white;
+    filter: brightness(100%);
+}
+
+.climate p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    font-style: rockwell extra bold;
+    filter: brightness(100%);
+}
+
+.climate .btn {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    filter: brightness(100%);
+}
+
+.climate .btn:hover {
+    background-color: grey;
+}
+
+.education{
+    background-image: url('/raisebox/images/education2.jpeg'); /* Add the path to your background image */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Set the section height to fill the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px; 
+}
+
+.education h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow for better text readability */
+    color: white;
+    font-weight: bold;
+    font-style: arial black;
+    filter: brightness(100%);
+}
+
+.education p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    font-style: arial black;
+    filter: brightness(100%);
+}
+
+.education .btn {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    filter: brightness(100%);
+}
+
+.education .btn:hover {
+    background-color: grey;
+}
+
+.foodbank{
+    background-image: url('/raisebox/images/food2.jpg'); /* Add the path to your background image */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Set the section height to fill the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px; 
+}
+
+.foodbank h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow for better text readability */
+    color: white;
+    filter: brightness(100%);
+}
+
+.foodbank p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    font-style: rockwell extra bold;
+    filter: brightness(100%);
+}
+
+.foodbank .btn {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    filter: brightness(100%);
+}
+
+.foodbank .btn:hover {
+    background-color: grey;
+}
+
+.haiti{
+    background-image: url('/raisebox/images/haiti.jpeg'); /* Add the path to your background image */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Set the section height to fill the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px; 
+}
+
+.haiti h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow for better text readability */
+    color: white;
+    filter: brightness(100%);
+}
+
+.haiti p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    font-style: rockwell extra bold;
+    filter: brightness(100%);
+}
+
+.haiti .btn {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    filter: brightness(100%);
+}
+
+.haiti .btn:hover {
+    background-color: grey;
+}
+
+.homelessness{
+    background-image: url('/raisebox/images/homeless2.jpg'); /* Add the path to your background image */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Set the section height to fill the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px; 
+}
+
+.homelessness h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow for better text readability */
+    color: white;
+    filter: brightness(100%);
+}
+
+.homelessness p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    font-style: rockwell extra bold;
+    filter: brightness(100%);
+}
+
+.homelessness .btn {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    filter: brightness(100%);
+}
+
+.homelessness .btn:hover {
+    background-color: grey;
+}
+
+.hospital{
+    background-image: url('/raisebox/images/hospital2.jpg'); /* Add the path to your background image */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Set the section height to fill the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px; 
+}
+
+.hospital h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow for better text readability */
+    color: white;
+    filter: brightness(100%);
+}
+
+.hospital p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    font-style: rockwell extra bold;
+    filter: brightness(100%);
+}
+
+.hospital .btn {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    filter: brightness(100%);
+}
+
+.hospital .btn:hover {
+    background-color: grey;
+}
+
+.kakuma{
+    background-image: url('/raisebox/images/kakuma2.jpg'); /* Add the path to your background image */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Set the section height to fill the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px; 
+}
+
+.kakuma h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow for better text readability */
+    color: white;
+    filter: brightness(100%);
+}
+
+.kakuma p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    font-style: rockwell extra bold;
+    filter: brightness(100%);
+}
+
+.kakuma .btn {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    filter: brightness(100%);
+}
+
+.kakuma .btn:hover {
+    background-color: grey;
+}
+
+.orphanage{
+    background-image: url('/raisebox/images/orphanage3.jpg'); /* Add the path to your background image */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Set the section height to fill the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px; 
+}
+
+.orphanage h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow for better text readability */
+    color: white;
+    filter: brightness(100%);
+}
+
+.orphanage p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    font-style: rockwell extra bold;
+    filter: brightness(100%);
+}
+
+.orphanage .btn {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    filter: brightness(100%);
+}
+
+.orphanage .btn:hover {
+    background-color: grey;
+}
+
+.sewage{
+    background-image: url('/raisebox/images/sewage2.jpg'); /* Add the path to your background image */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Set the section height to fill the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px; 
+}
+
+.sewage h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow for better text readability */
+    color: white;
+    filter: brightness(100%);
+}
+
+.sewage p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    font-style: rockwell extra bold;
+    filter: brightness(100%);
+}
+
+.sewage .btn {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    filter: brightness(100%);
+}
+
+.sewage .btn:hover {
+    background-color: grey;
+}
+
+.treeplanting{
+    background-image: url('/raisebox/images/treeplanting3.jpg'); /* Add the path to your background image */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Set the section height to fill the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px; 
+}
+
+.treeplanting h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow for better text readability */
+    color: white;
+    filter: brightness(100%);
+}
+
+.treeplanting p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    font-style: rockwell extra bold;
+    filter: brightness(100%);
+}
+
+.treeplanting .btn {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    filter: brightness(100%);
+}
+
+.treeplanting .btn:hover {
+    background-color: grey;
+}
+
+.wells{
+    background-image: url('/raisebox/images/wells5.jpg'); /* Add the path to your background image */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Set the section height to fill the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px; 
+}
+
+.wells h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow for better text readability */
+    color: white;
+    filter: brightness(100%);
+}
+
+.wells p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    font-style: rockwell extra bold;
+    filter: brightness(100%);
+}
+
+.wells .btn {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    filter: brightness(100%);
+}
+
+.wells .btn:hover {
+    background-color: grey;
+}

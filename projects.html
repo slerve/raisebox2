@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-U-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>raise-box | Home</title>
+  <link rel="stylesheet" href="\raisebox\css\style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+<section id="header">
+  <h1>raise-box</h1>
+</section>
+<ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="projects.html">Projects</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+</ul>
+ 
+<div class="search-container">
+    <input type="text" id="searchBox" placeholder="Search for projects..." oninput="searchItems()">
+  </div>
+
+<p class="won">Check out different projects to support:</p>
+
+<div id="items">
+<section id ="navbar">
+
+<section class="power">
+<div class="circle-image">
+<li><a href="gaza.html"><img src="/raisebox/images/gaza.jpg" alt="Gaza"><p>Gaza</p></a></li>
+</div>
+</section>
+
+<section class="power">
+<div class="circle-image">
+<li><a href="orphanage.html"><img src="/raisebox/images/orphanage.png" alt="Orphanage"><p>Orphanage</p></a></li>
+</div>
+</section>
+
+<section class="power">
+<div class="circle-image">
+<li><a href="wells.html"><img src="/raisebox/images/wells.png" alt="Wells"><p>Building wells</p></a></li>
+</div>
+</section>
+
+</section>
+
+<section id ="navbar">
+
+<section class="power">
+<div class="circle-image">
+<li><a href="kakuma.html"><img src="/raisebox/images/kakuma1.jpg" alt="Kakuma"><p>Kakuma camp</p></a></li>
+</div>
+</section>
+
+<section class="power">
+<div class="circle-image">
+<li><a href="education.html"><img src="/raisebox/images/education.jpg" alt="Education"><p>Education</p></a></li>
+</div>
+</section>
+
+<section class="power">
+<div class="circle-image">
+<li><a href="foodbank.html"><img src="/raisebox/images/food.jpg" alt="Food Bank"><p>Food Bank</p></a></li>
+</div>
+</section>
+
+</section>
+
+<section id ="navbar">
+
+<section class="power">
+<div class="circle-image">
+<li><a href="haiti.html"><img src="/raisebox/images/haiti3.jpg" alt="Haiti Aid"><p>Haiti</p></a></li>
+</div>
+</section>
+
+<section class="power">
+<div class="circle-image">
+<li><a href="hospital.html"><img src="/raisebox/images/hospital4.jpg" alt="Hospital"><p>Hospital construction</p></a></li>
+</div>
+</section>
+
+<section class="power">
+<div class="circle-image">
+<li><a href="homelessness.html"><img src="/raisebox/images/homeless.jpg" alt="Wells"><p>Homelessness</p></a></li>
+</div>
+</section>
+
+</section>
+
+<section id ="navbar">
+
+<section class="power">
+<div class="circle-image">
+<li><a href="treeplanting.html"><img src="/raisebox/images/treeplanting2.png" alt="Tree Planting"><p>Tree Planting</p></a></li>
+</div>
+</section>
+
+<section class="power">
+<div class="circle-image">
+<li><a href="sewage.html"><img src="/raisebox/images/sewage.jpg" alt="Sewage cleanup"><p>Sewage cleanup</p></a></li>
+</div>
+</section>
+
+<section class="power">
+<div class="circle-image">
+<li><a href="climate.html"><img src="/raisebox/images/climate2.jpeg" alt="Climate Change"><p>Climate Action</p></a></li>
+</div>
+</section>
+
+</section>
+
+</div>
+
+
+<script>
+    function searchItems() {
+      const query = document.getElementById("searchBox").value.toLowerCase();
+      const items = document.querySelectorAll(".power");
+
+      items.forEach(item => {
+        const text = item.textContent.toLowerCase();
+        if (text.includes(query)) {
+          item.classList.remove("hidden");
+        } else {
+          item.classList.add("hidden");
+        }
+      });
+    }
+  </script>
+<!-- Footer -->
+    <footer>
+        <p>&copy; 2025 raise-box. All Rights Reserved.</p>
+   
+
+        
+    </footer>
+
+
+</body>
+</html>
